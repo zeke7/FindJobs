@@ -1,0 +1,191 @@
+/*start navigation*/
+
+.nav-title{
+	color: lightblue;
+	font-size: 25px;
+}
+
+.icon-adjust{
+	margin-left: 5px;
+	color: lightblue;
+}
+
+
+.a-b-font{
+	color: lightblue;
+	font-size: 15px;
+}
+
+.a-b-font-special{
+	font-size: 25px;
+	color: pink;
+}
+
+
+/*end navigation*/
+
+
+/*Body1*/
+.body1{
+	background-color: #87CEEB;
+	padding-bottom: 130px;
+}
+.body-title{
+	font-size: 80px;
+	color: white;
+	margin-top: 100px;
+}
+.body1-big-title{
+	margin-top: 60px;
+	padding: 20px;
+	text-align: center;
+}
+
+.p-font{
+	font-size: 40px;
+	color: white;
+}
+
+.imgicon{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.img-icon-hover:hover{
+	opacity:0.8;
+}
+
+/*end body1*/
+
+/*body2*/
+
+.body2{
+	
+}
+
+.features-title{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.features{
+	text-align: center;
+}
+
+.features-h{
+	margin-top: 20px;
+	font-size: 35px;
+
+}
+
+.features-p{
+	font-size: 20px;
+}
+
+/*end body2*/
+
+/*body3*/
+
+.body3{
+	background-color: #5778f2;
+	text-align: center;
+}
+
+.body3-title{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	text-align:center;
+	color: white;
+}
+
+.body3-form{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.input-group-item{
+	margin: 10px auto;
+	width: 60%;
+}
+
+.input-span{
+	font-size: 20px;
+	color: white;
+}
+.body3-input-area{
+	width: 40%;
+	margin: auto;
+}
+.body3-input-t {
+
+	height: 30px;
+	width: 50%;
+	border-radius: 5px;
+	outline: none;
+	border:none;
+	background-color: white;
+}
+.body3-input-t:hover{
+	background-color: #fcf7f7; 
+	border: 1px solid #efe8e8;
+}
+
+.body3-input-area:hover{
+	background-color: #fcf7f7; 
+	border: 1px solid #efe8e8;
+}
+
+
+/*end body3*/
+
+/*body4*/
+.body4{
+	height: auto;
+	background-color: #7460f2;
+}
+
+.icon-footer1{
+	height: 50px;
+	width: 55px;
+}
+
+.icon-footer2{
+	height: 40px;
+	width: 100px;
+}
+
+.icon-footer3{
+	height: 45px;
+	width: 37px;
+}
+
+.follow-titles{
+	padding-top: 13px;
+	text-align: center;
+	color: white;
+}
+
+.footer-foot{
+	background-color: #503bd6;
+
+}
+
+.main-imggroup{
+	text-align: center;
+}
+
+/*end body4*/
+
+/*footer*/
+
+.footer-last{
+	background-color: #503bd6;
+	height: 30px;
+
+}
+
+.footer-p{
+	text-align: center;
+}
+/*end footer*/
