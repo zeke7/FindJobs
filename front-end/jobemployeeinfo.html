@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>职得 网站</title>
+   
+    <!-- Bootstrap -->
+    
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <!-- <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    
+    <link rel="stylesheet" type="text/css" href="./css/jobinfo.css">
+
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- start navigation -->
+    <nav class="main-navigation navbar navbar-default navbar-fixed-top">
+
+        <div class="container-fluid">
+                <div class="navbar-header" >
+                    <div>
+                        <a class="navbar-brand" href="job.html" ><b class="nav-title">职得</b><span class="glyphicon glyphicon-briefcase icon-adjust" ></span></a>
+                    </div>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse"  data-target="#navbar-gbtag" aria-expanded="true">
+                                <span class="sr-only">Toggle Navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                </div>        
+                
+                <div class="collapse navbar-collapse navbar-responsive-collapse navbar-right" id="navbar-gbtag">
+                    <ul class="nav  navbar-nav">
+                        <li class="nav-items" role="presentation" ><a href="job.html" ><b class="a-b-font">主页</b></a></li>
+                        <li class="nav-items" role="presentation" ><a href="contact.html" ><b class="a-b-font">联系我们</b></a></li>
+                        <li class="nav-items" role="presentation" ><a href="employees.html" ><b class="a-b-font-special">寻找工作</b></a></li>
+                        <li class="navitems" role="presentation" ><a href="#" ><b class="a-b-font-special">发布工作</b></a></li>
+                        <li class="navitems" role="presentation" ><a href="register.html" ><b class="a-b-font">登陆/注册</b><span class="glyphicon glyphicon-user icon-adjust"></span></a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+     <!-- end navigation -->
+
+     <!-- main area -->
+
+     <main class="container">
+
+      <form>
+        <div class="jumbotron">
+          <h1 class="j-title">你好，欢迎使用职得！</h1>
+          <div class="jum-adjust">
+          <div class="dropdown col-sm-3">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <b>请选择省份：</b>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+          </div>
+
+          <div class="dropdown col-sm-3">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <b>请选择您所在的市：</b>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+          </div>
+
+          <div class="dropdown col-sm-3">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <b>请选择您所在的县/区：</b>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+          </div>
+
+          <div class="dropdown col-sm-3">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <b>请选择您需要的职位类型：</b>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+          </div>
+
+          </div>
+
+          <div class="filterbutton">
+            <button class="btn btn-success btn-right" type="submit">确定提交</button>
+          </div>
+        </div>
+        </form>
+
+        <div class="dingwei">
+          <form>
+            <button class="btn btn-success"><b>点击我即可定位！</b><span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
+          </form>
+        </div>
+
+
+        <div class="col-sm-12 col-md-12 col-xs-12 info" id="info1">
+        
+          <div class="col-sm-4 info-image">
+            <img src="./static/images/robot.png" class="img-thumbnail img-responsive" alt="Responsive image">
+            <p class="starlevel"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+          </div>
+
+          <div class="col-sm-3 info-p">
+            <div>
+              <label>昵称:</label><a href="">张三</a>
+            </div>
+
+            <div>
+              <label>需求职位:</label><a href="">软件工程师</a>
+            </div>
+
+            <div>
+              <label>所在地点:</label><a href="">福建省厦门市思明区</a>
+            </div>
+
+            <div>
+              <label>预计报酬:</label><a href="">2000元/小时</a>
+            </div>
+            <button class="btn btn-primary" type="">点击查看详细信息</button>
+            </div>
+
+            <div class="col-sm-5 info-p">
+              <label>个人简历:</label>
+                <p style="word-wrap:break-word;">1、负责公司产品的策划分析、卖点提炼和细化等工作； 
+                    2、负责公司产品相关文案策划、撰写、定稿、传播发布； 
+                    3、负责分析客户需求，迎合潜在客户的需求，策划能打动消费者的文案视觉页面； 
+                    4、负责公司产品宣传材料的撰写与管理，包括：新闻稿、内宣稿、品牌宣传等； 
+                    5、负责网络软性推广活动（话题营销，问答营销）话题策略。 
+                    6、笔杆硬，有创意，能结合热点事件营销产品。
+                </p>
+            </div>
+        
+        </div>
+
+       <div class="col-sm-12 col-md-12 col-xs-12 info" id="info1">
+        
+          <div class="col-sm-4 info-image">
+            <img src="./static/images/robot.png" class="img-thumbnail img-responsive" alt="Responsive image">
+            <p class="starlevel"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+          </div>
+
+          <div class="col-sm-3 info-p">
+            <div>
+              <label>昵称:</label><a href="">张三</a>
+            </div>
+
+            <div>
+              <label>需求职位:</label><a href="">软件工程师</a>
+            </div>
+
+            <div>
+              <label>所在地点:</label><a href="">福建省厦门市思明区</a>
+            </div>
+
+            <div>
+              <label>预计报酬:</label><a href="">2000元/小时</a>
+            </div>
+            <button class="btn btn-primary" type="">点击查看详细信息</button>
+            </div>
+
+            <div class="col-sm-5 info-p">
+              <label>个人简历:</label>
+                <p style="word-wrap:break-word;">1、负责公司产品的策划分析、卖点提炼和细化等工作； 
+                    2、负责公司产品相关文案策划、撰写、定稿、传播发布； 
+                    3、负责分析客户需求，迎合潜在客户的需求，策划能打动消费者的文案视觉页面； 
+                    4、负责公司产品宣传材料的撰写与管理，包括：新闻稿、内宣稿、品牌宣传等； 
+                    5、负责网络软性推广活动（话题营销，问答营销）话题策略。 
+                    6、笔杆硬，有创意，能结合热点事件营销产品。
+                </p>
+            </div>
+        
+        </div>
+
+
+        <div class="col-sm-12 col-md-12 col-xs-12 info" id="info1">
+        
+          <div class="col-sm-4 info-image">
+            <img src="./static/images/robot.png" class="img-thumbnail img-responsive" alt="Responsive image">
+            <p class="starlevel"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+          </div>
+
+          <div class="col-sm-3 info-p">
+            <div>
+              <label>昵称:</label><a href="">张三</a>
+            </div>
+
+            <div>
+              <label>需求职位:</label><a href="">软件工程师</a>
+            </div>
+
+            <div>
+              <label>所在地点:</label><a href="">福建省厦门市思明区</a>
+            </div>
+
+            <div>
+              <label>预计报酬:</label><a href="">2000元/小时</a>
+            </div>
+            <button class="btn btn-primary" type="">点击查看详细信息</button>
+            </div>
+
+            <div class="col-sm-5 info-p">
+              <label>个人简历:</label>
+                <p style="word-wrap:break-word;">1、负责公司产品的策划分析、卖点提炼和细化等工作； 
+                    2、负责公司产品相关文案策划、撰写、定稿、传播发布； 
+                    3、负责分析客户需求，迎合潜在客户的需求，策划能打动消费者的文案视觉页面； 
+                    4、负责公司产品宣传材料的撰写与管理，包括：新闻稿、内宣稿、品牌宣传等； 
+                    5、负责网络软性推广活动（话题营销，问答营销）话题策略。 
+                    6、笔杆硬，有创意，能结合热点事件营销产品。
+                </p>
+            </div>
+        
+        </div>
+
+
+         
+
+     </main>
+     <!-- end main area -->
+  
+
+
+   
+
+            
+    
+        <footer class="footer-last">
+             <p class="footer-p">&copy; 2017 Copyright. Made by Hao Fang <span class="glyphicon glyphicon-heart"></span></p>
+        </footer>
+             
+            
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+   
+  </body>
+</html>

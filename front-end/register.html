@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>职得 网站</title>
+    <!-- Bootstrap -->
+    
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<!-- 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+
+	<link rel="stylesheet" type="text/css" href="./css/register.css">
+
+
+	
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body >
+
+  <!-- start navigation -->
+    <nav class="main-navigation navbar navbar-default navbar-fixed-top">
+
+        <div class="container-fluid">
+                <div class="navbar-header" >
+                    <div>
+                        <a class="navbar-brand" href="job.html" ><b class="nav-title">职得</b><span class="glyphicon glyphicon-briefcase icon-adjust" ></span></a>
+                    </div>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse"  data-target="#navbar-gbtag" aria-expanded="true">
+                                <span class="sr-only">Toggle Navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                </div>        
+                
+                <div class="collapse navbar-collapse navbar-responsive-collapse navbar-right" id="navbar-gbtag">
+                    <ul class="nav  navbar-nav">
+                        <li class="nav-items" role="presentation" ><a href="job.html" ><b class="a-b-font">主页</b></a></li>
+                        <li class="nav-items" role="presentation" ><a href="#contact" ><b class="a-b-font">联系我们</b></a></li>
+                        <li class="nav-items" role="presentation" ><a href="employees.html" ><b class="a-b-font-special">寻找工作</b></a></li>
+                        <li class="navitems" role="presentation" ><a href="employers.html" ><b class="a-b-font-special">发布工作</b></a></li>
+                        <li class="navitems" role="presentation" ><a href="register.html" ><b class="a-b-font">注册</b><span class="glyphicon glyphicon-user icon-adjust"></span></a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+     <!-- end navigation -->
+
+
+  <main class="container register-form">
+
+   <p class="title-style" ><b>注册</b></p>
+   <hr style="width: 70%; padding-top: 50px;" />
+   <p class="subtitle-style" ><b>创建你的账户，只需要几分钟的时间：</b></p>
+
+   <div class="formContainer">
+      <form>
+          <div class="form-group">
+            <label for="InputEmail">邮箱地址：</label>
+            <input type="email" class="form-control" id="InputEmail" placeholder="邮箱地址..."onblur="EmailValidation()"><span id="e-mail"></span>
+          </div>
+          <div class="form-group">
+            <label for="InputName">昵称：</label>
+            <input type="text" class="form-control" id="InputName" placeholder="昵称..." onblur="Nemptyornot()"><span id="nichen"></span>
+          </div>
+          <div class="form-group">
+            <label for="InputPassword">登陆密码:</label>
+            <input type="password" class="form-control" id="InputPassword1" placeholder="登陆密码..." onblur ="Pemptyornot()"><span id="mima"></span>
+          </div>
+          <div class="form-group">
+            <label for="InputPassword">确认密码:</label>
+            <input type="password" class="form-control" id="InputPassword2" placeholder="请再次填写密码..." onblur ="validate()"><span id="tishi"></span>
+          </div>
+          <button class="btn btn-primary">确认提交</button>
+          <button class="btn btn-primary">已有账号，直接登陆</button>
+      </form>
+  </div>
+
+   <hr />
+   <p class="font-change">或使用以下社交账号直接登陆：</p>
+   <div class="option-en">
+          <div style="float: left;"><a href="https://wx.qq.com//" >
+                <img src="./static/images/wx.png" class="icon-footer1"></a>
+          </div>
+          <div style="float: right;"> <a href="https://www.qq.com//" >
+                <img src="./static/images/qq.png" class="icon-footer3"></a>
+          </div> 
+          <div style="text-align: center;"> <a href="https://weibo.com/login.php">
+                <img src="./static/images/weibo.png" class="icon-footer2"></a>
+          </div> 
+          <div style="clear: both;"></div>
+
+          
+   </div>
+
+
+
+   </main>
+
+          <div class="container-fluid download-link">
+         
+            <h1 class="follow-titles">
+                <span class="glyphicon glyphicon-ok-sign" style="margin-right: 15px"></span>
+                    <b>点击下载</b>
+            </h1>
+
+            <div class="main-imggroup">
+                
+                <div class="imggroup">
+                  <img src="./static/images/apple.png" class="img-icon-hover">
+                  <img src="./static/images/google.png" class="img-icon-hover" >
+                </div>
+                
+
+            </div>
+
+            
+    </div>
+
+        <footer class="footer-last">
+             <p class="footer-p">&copy; 2017 Copyright. Made by Hao Fang <span class="glyphicon glyphicon-heart"></span></p>
+        </footer>
+             
+      
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/validform.js"></script>
+  </body>
+</html>
