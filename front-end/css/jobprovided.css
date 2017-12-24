@@ -1,0 +1,60 @@
+html{height:100%;}
+body{min-height:100%;margin:0;padding:0;position:relative;}
+main{
+	padding:100px 0 60px 0;
+	
+}
+/*start navigation*/
+
+.nav-title{
+	color: lightblue;
+	font-size: 25px;
+}
+
+.icon-adjust{
+	margin-left: 5px;
+	color: lightblue;
+}
+
+
+.a-b-font{
+	color: lightblue;
+	font-size: 15px;
+}
+
+.a-b-font-special{
+	font-size: 25px;
+	color: pink;
+}
+
+
+/*end navigation*/
+.companyinfomation{
+	height: 80%;
+	border-radius: 15px;
+	border: 1px solid lightblue;
+	margin: 0 auto;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.br-border{
+	border: 0.4px lightblue solid;
+	width: 50%;
+}
+
+/*footer*/
+
+.footer-last{
+	background-color: lightyellow;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:auto;
+}
+
+.footer-p{
+	text-align: center;
+
+}
+/*end footer*/

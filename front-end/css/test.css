@@ -53,12 +53,17 @@
 
 
 .img-icon-hover:hover{
+	background-color: #87CEEB;
 	opacity:0.8;
 }
 
 /*end body1*/
 
 /*body2*/
+
+.body2{
+	
+}
 
 .features-title{
 	text-align: center;
@@ -176,8 +181,10 @@
 /*footer*/
 
 .footer-last{
-	background-color: lightyellow;/*#503bd6;*/
+	background-color: #503bd6;
 	height: 30px;
+   width:100%;
+
 
 }
 

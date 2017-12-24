@@ -32,7 +32,7 @@ body{
 /*footer*/
 
 .footer-last{
-	background-color: #503bd6;
+	background-color: lightyellow;
 	height: 90%;
 
 }
@@ -387,3 +387,6 @@ body{
     background: #FFF;
 }
 
+.register-form{
+	padding: 90px 100px;
+}
